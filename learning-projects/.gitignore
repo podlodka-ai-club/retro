@@ -1,0 +1,8 @@
+# Every clone under this directory is third-party code. It must never enter
+# this repository: that is what keeps us clear of any redistribution
+# obligations under the licences those projects carry.
+#
+# Ignore everything, then re-admit only the files we actually own.
+*
+!.gitignore
+!README.md
