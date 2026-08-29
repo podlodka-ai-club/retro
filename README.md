@@ -10,3 +10,14 @@ The key constraint in both cases is not to maximize the number of tests, but to 
 
 In short:
 bug/mutation → check against the current tests → analyze the miss → update memory → improve the minimal test set → next iteration.
+
+## Learning projects
+
+The agent practises on real open-source projects. Clone them into
+`learning-projects/` — they are gitignored and never committed here:
+
+```
+git clone https://github.com/netbox-community/netbox learning-projects/netbox
+```
+
+See [learning-projects/README.md](learning-projects/README.md).
